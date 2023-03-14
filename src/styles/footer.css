@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.footer .content {
+    padding-top: 50px;
+}
+.footer__content {
+    border-top: 2px solid #F8F8F8;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    gap: 40px 126px;
+    grid-template-areas:
+    'logo social contact '
+    'copy . dev';
+}
+.footer__social {
+    grid-area: social;
+    display: flex;
+    gap: 24px;
+    justify-self: end;
+}
+.footer__contact {
+    grid-area: contact;
+}
+.footer__dev {
+    grid-area: dev;
+}
+.footer__logo {
+    width: 162px;
+    height: 39px;
+    grid-area: logo;
+}
+.footer_list {
+}
+.footer_item {
+}
+.footer__link {
+}
+.footer__item {
+}
+.footer_link {
+}
+.footer__copyrite {
+    grid-area: copy;
+}
+.footer__list {
+}

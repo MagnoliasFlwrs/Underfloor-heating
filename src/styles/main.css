@@ -1,0 +1,29 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #FFC700;
+    --color-black: #232020;
+    --background-light: #F8F8F8;
+    --background-gray: #898989;
+    --color-gray-middle: #E4E4E4;
+}
+body {
+    font-family: Inter , sans-serif;
+}
+.content {
+    max-width: calc(1190px + 16px*2 );
+    padding: 0 16px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
