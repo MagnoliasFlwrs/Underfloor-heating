@@ -33,16 +33,29 @@
 }
 .footer_list {
 }
-.footer_item {
-}
-.footer__link {
-}
-.footer__item {
+.footer_item:not(:last-child) ,.footer__item:not(:last-child) {
+    margin-bottom: 16px;
 }
 .footer_link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer_link > svg {
+    display: block;
+}
+.footer_link > span {
+    display: block;
+    margin-right: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-black);
+    text-decoration: none;
 }
 .footer__copyrite {
     grid-area: copy;
-}
-.footer__list {
 }
