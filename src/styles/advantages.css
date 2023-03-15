@@ -1,0 +1,45 @@
+.advantages {
+    padding: 40px 0;
+}
+.content {
+}
+.advantages__container {
+    display: flex;
+    gap: 10px;
+}
+.advantages__title {
+    flex-basis: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #232020;
+    margin-left: 50px;
+}
+.advantages__list {
+    flex-basis: 50%
+}
+.adv__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #232020;
+    display: flex;
+    align-items: center;
+}
+.adv__item:not(:last-child) {
+    margin-bottom: 32px;
+}
+.adv__item::before {
+    content: '';
+    display: block;
+    background-image: url('../images/Star\ 5.png');
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+}
